@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+.tesla{
+    height: 100vh;
+    position: relative;
+    color: rgb(70, 70, 70);
+}
+
+.tesla video{
+    width: 100%;
+    top: -10vh;
+    position: absolute;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.tesla h2,h3 {
+    position: absolute;
+    z-index: 2;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tesla h2{
+    font-size: 3rem;
+}
+
+.tesla h3{
+    font-size: 1rem;
+    margin: 10rem 6rem;
+}
